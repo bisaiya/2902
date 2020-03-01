@@ -1,0 +1,34 @@
+.countup {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+  }
+  .countup .timeel {
+    display: inline-block;
+    padding: 10px;
+    background: #151515;
+    margin: 0;
+    color: white;
+    min-width: 2.6rem;
+    margin-left: 13px;
+    border-radius: 10px 0 0 10px;
+  }
+  .countup span[class*="timeRef"] {
+    border-radius: 0 10px 10px 0;
+    margin-left: 0;
+    background: #b19cd9;
+    color: black;
+  }
+
+  .countup::before{
+    content:'Count from Feb 29, 2020 23:57:00';
+    position: absolute;
+    bottom: 110%;
+    left: 15px;
+    font-family:'Pacifico';
+    font-size: larger;
+
+  }
