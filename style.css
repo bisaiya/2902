@@ -24,7 +24,7 @@
   }
 
   .countup::before{
-    content:'Count from Feb 29, 2020 23:57:00';
+    content:'From Feb 29, 2020 23:57:00';
     position: absolute;
     bottom: 110%;
     left: 15px;
