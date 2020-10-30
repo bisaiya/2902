@@ -9,8 +9,8 @@
   font-size: larger;
   color: white;
 }
-/*
-.countup {
+
+.countdown {
 	text-align: center;
 	position: absolute;
 	top: 50%;
@@ -18,32 +18,20 @@
 	transform: translate(-50%, -50%);
 	display: flex;
 }
-.countup .timeel {
+.countdown .timeel {
 	display: inline-block;
 	padding: 10px;
 	background: #151515;
 	margin: 0;
 	color: white;
-	min-width: 2.6rem;
+	min-width: 5rem;
 	margin-left: 13px;
 	border-radius: 10px 0 0 10px;
 }
-.countup span[class*="timeRef"] {
+.countdown span[class*="timeRef"] {
 	border-radius: 0 10px 10px 0;
 	margin-left: 0;
-	background: #b19cd9;
+	background-color: aliceblue;
 	color: black;
 }
 
-.countup::before {
-	content: 'From Feb 29, 2020 23:57:00';
-	position: absolute;
-	bottom: 110%;
-	left: 15px;
-	font-family: 'Pacifico';
-	font-size: larger;
-}
-
-.hidden {
-	display: none;
-} */
