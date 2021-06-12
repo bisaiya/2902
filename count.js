@@ -1,5 +1,5 @@
-window.onload = function() {
-	countDownFromTime('Mar 8, 2021 00:00:00', 'countdownId');
+window.onload = function () {
+	countDownFromTime('Jul 31, 2021 00:00:00', 'countdownId');
 };
 
 function countDownFromTime(countDownDate, id) {
@@ -23,7 +23,7 @@ function countDownFromTime(countDownDate, id) {
 	idEl.querySelectorAll('.seconds')[0].innerHTML = secs;
 
 	clearTimeout(countDownFromTime.intervel);
-	countDownFromTime.intervel = setTimeout(function() {
+	countDownFromTime.intervel = setTimeout(function () {
 		countDownFromTime(countDownDate, id);
 	}, 1000);
 }
